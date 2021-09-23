@@ -1,0 +1,23 @@
+.articleTitle {
+    font-size: 30px;
+    font-weight: 900;
+    color: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.articleDate {
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(255, 221, 128);
+    margin-top: -5px;
+    margin-bottom: 0px;
+}
+
+.articleDesc {
+    font-size: 18px;
+    font-weight: 600;
+    color: whitesmoke;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
