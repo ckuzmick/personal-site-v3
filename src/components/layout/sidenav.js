@@ -11,6 +11,11 @@ export default (props) => (
   </NavLink>
 </li>
 <li sx={{ textAlign:"right" }}>
+  <NavLink href="#!" p={2} sx={{ paddingRight:"0", paddingLeft:"0px" }}>
+    About
+  </NavLink>
+</li>
+<li sx={{ textAlign:"right" }}>
   <NavLink href="/writing/" p={2} sx={{ paddingRight:"0", paddingLeft:"0px" }}>
     Writing
   </NavLink>
