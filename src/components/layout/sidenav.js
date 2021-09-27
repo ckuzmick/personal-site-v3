@@ -11,7 +11,7 @@ export default (props) => (
   </NavLink>
 </li>
 <li sx={{ textAlign:"right" }}>
-  <NavLink href="#!" p={2} sx={{ paddingRight:"0", paddingLeft:"0px" }}>
+  <NavLink href="/about/" p={2} sx={{ paddingRight:"0", paddingLeft:"0px" }}>
     About
   </NavLink>
 </li>
@@ -21,7 +21,7 @@ export default (props) => (
   </NavLink>
 </li>
 <li sx={{ textAlign:"right" }}>
-  <NavLink href="#!" p={2} sx={{ paddingRight:"0", paddingLeft:"0px" }}>
+  <NavLink href="/projects/" p={2} sx={{ paddingRight:"0", paddingLeft:"0px" }}>
     Projects
   </NavLink>
 </li>

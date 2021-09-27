@@ -2,6 +2,7 @@ import { NavLink } from 'theme-ui'
 import SideNav from "../components/layout/sidenav"
 import Layout from "../components/layout/layout.js"
 import "../components/default.css"
+import { motion } from "framer-motion"
 
 <Layout>
 
@@ -11,8 +12,13 @@ On this page, I'll try to write one article a week, these could range from artic
 
 ---
 
-<a class="articleTitle">How should code be taught?</a>
+<motion.div
+    whileHover={{ y: -4 }}
+    whileTap={{ y: 0.9 }}
+>
+<a class="articleTitle" href="/writing/code-teaching/">How should code be taught?</a>
+</motion.div>
 <p class="articleDate">September 24, 2021</p>
-<p class="articleDesc"></p>
+<p class="articleDesc">Most people agree that code should be taught in some way, but how should it be approached?</p>
 
 </Layout>
