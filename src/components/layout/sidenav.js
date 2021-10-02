@@ -4,25 +4,30 @@ import { NavLink } from 'theme-ui'
 import "./sidenav.css"
 
 export default (props) => (
-<ul sx={{ marginRight:'10px' }}>
-<li sx={{ textAlign:"right" }}>
+<ul class="sidebarList">
+<li class="sidebarItem">
   <NavLink href="/" p={2} sx={{ paddingRight:"0", paddingLeft:"0px" }}>
     Home
   </NavLink>
 </li>
-<li sx={{ textAlign:"right" }}>
+<li class="sidebarItem">
   <NavLink href="/about/" p={2} sx={{ paddingRight:"0", paddingLeft:"0px" }}>
     About
   </NavLink>
 </li>
-<li sx={{ textAlign:"right" }}>
+<li class="sidebarItem">
   <NavLink href="/writing/" p={2} sx={{ paddingRight:"0", paddingLeft:"0px" }}>
     Writing
   </NavLink>
 </li>
-<li sx={{ textAlign:"right" }}>
+<li class="sidebarItem">
   <NavLink href="/projects/" p={2} sx={{ paddingRight:"0", paddingLeft:"0px" }}>
     Projects
+  </NavLink>
+</li>
+<li class="sidebarItem">
+  <NavLink href="/resources/" p={2} sx={{ paddingRight:"0", paddingLeft:"0px" }}>
+    Resources
   </NavLink>
 </li>
 </ul>

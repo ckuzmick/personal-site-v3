@@ -1,3 +1,16 @@
+/* headings */
+
+h1 {
+    margin-bottom: 0px;
+}
+
+h2 {
+    margin-top: 17px;
+    margin-bottom: 0px;
+}
+
+/* writing */
+
 .articleTitle {
     font-size: 30px;
     font-weight: 900;
@@ -21,6 +34,8 @@
     margin-top: 0px;
     margin-bottom: 0px;
 }
+
+/* projects */
 
 .projectBox {
     background-color: hsla(230, 20%, 0%, 20%);

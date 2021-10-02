@@ -147,7 +147,7 @@ export default {
       "hr": {
         "border": 0,
         "borderBottom": "1px solid",
-        "borderColor": "muted"
+        "borderColor": "primary"
       },
       "img": {
         "maxWidth": "100%"
