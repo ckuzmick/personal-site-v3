@@ -1,3 +1,7 @@
+:root {
+    --100: calc(100vw - 100px - 150px - 16px);
+}
+
 /* headings */
 
 h1 {
@@ -15,8 +19,15 @@ h2 {
     font-size: 30px;
     font-weight: 900;
     color: auto;
-    margin-top: 0px;
+    margin-top: 17px !important;
     margin-bottom: 0px;
+    cursor: pointer;
+}
+
+.articleTitle:hover {
+    text-decoration: underline;
+    text-decoration-color: hsl(290, 100%, 80%);
+    color: hsl(260, 100%, 80%);
 }
 
 .articleDate {
@@ -66,4 +77,8 @@ h2 {
 
 .container {
 
+}
+
+hr {
+    width: var(--100);
 }
